@@ -49,6 +49,29 @@
 	width: 200px;
 }
 
+.tabel-buah h1{
+	text-align: center;
+}
+
+.tabel-buah table{
+	width: 50%;
+	margin: 30px auto;
+}
+
+.tabel-buah table tr{
+	background-color: #f08a5d;
+}
+
+.tabel-buah table tr:nth-child(1){
+	text-align: center;
+	font-weight: bold;
+	background-color: #ccc !important;
+}
+
+.tabel-buah table {
+	border: 1px solid #000;
+}
+
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);
