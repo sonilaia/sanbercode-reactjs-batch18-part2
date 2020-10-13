@@ -49,20 +49,20 @@
 	width: 200px;
 }
 
-.tabel-buah h1{
+.tabel-buah h1 {
 	text-align: center;
 }
 
-.tabel-buah table{
+.tabel-buah table {
 	width: 50%;
 	margin: 30px auto;
 }
 
-.tabel-buah table tr{
+.tabel-buah table tr {
 	background-color: #f08a5d;
 }
 
-.tabel-buah table tr:nth-child(1){
+.tabel-buah table tr:nth-child(1) {
 	text-align: center;
 	font-weight: bold;
 	background-color: #ccc !important;
@@ -70,6 +70,40 @@
 
 .tabel-buah table {
 	border: 1px solid #000;
+}
+
+.peserta {
+	width: 50%;
+	margin: 200px auto;
+}
+
+.peserta table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.peserta th,
+.peserta td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.hargaBuah {
+	width: 50%;
+	margin: 200px auto;
+}
+
+.hargaBuah table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.hargaBuah th,
+.hargaBuah td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
 }
 
 @keyframes App-logo-spin {
