@@ -89,21 +89,30 @@
 	border-bottom: 1px solid #ddd;
 }
 
-.hargaBuah {
-	width: 50%;
-	margin: 200px auto;
+.hargaBuah h1 {
+	text-align: center;
+}
+
+.hargaBuah th,
+td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
 }
 
 .hargaBuah table {
 	border-collapse: collapse;
-	width: 100%;
+	width: 50%;
+	margin: 0 auto;
 }
 
-.hargaBuah th,
-.hargaBuah td {
-	padding: 8px;
-	text-align: left;
-	border-bottom: 1px solid #ddd;
+.hargaBuah form {
+	text-align: center;
+}
+
+.hargaBuah label {
+	font-weight: bold;
+	margin-right: 10px;
 }
 
 @keyframes App-logo-spin {
